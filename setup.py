@@ -11,7 +11,7 @@ from setuptools import find_packages, setup, Command
 
 NAME = 'scrapyd-heroku'
 DESCRIPTION = 'Wrapper for running Scrapyd in Heroku or locally as a service'
-URL = 'https://github.com/jxltom/scrapyd-heroku'
+URL = 'https://github.com/rubnet/scrapyd-heroku'
 EMAIL = 'jxltom@gmail.com'
 AUTHOR = 'jxltom'
 VERSION = None
