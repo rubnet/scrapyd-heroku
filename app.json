@@ -1,4 +1,23 @@
 {
   "name": "scrapyd on heroku",
-  "description": "scrapyd-heroku crawler env"
+  "description": "scrapyd-heroku crawler env",
+  "keywords": ["b64"],
+  "env": {
+    "DOMAIN": {
+       "description": "输入域名被64",
+       "value": "latest"
+     }, 
+    "IP": {
+       "description": "输入ip被64",
+       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+     },
+    "PASSWD": {
+       "description": "PASSWD",
+       "value": "10"
+     },
+    "USER": {
+       "description": "USER",
+       "value": "10"
+     }
+  }
 }
