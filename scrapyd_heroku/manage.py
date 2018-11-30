@@ -11,10 +11,10 @@ import base64
 
 
 env = os.environ
-domain = base64.b64decode(env['DOMAIN'].encode('ascii'))
-ip = base64.b64decode(env['IP'].encode('ascii'))
-user = base64.b64decode(env['USER'].encode('ascii'))
-passwd = base64.b64decode(env['PASSWD'].encode('ascii'))
+domain = base64.b64decode(env['DOMAIN'].encode('ascii') if en.get('') else b'').decode('ascii')
+ip = base64.b64decode(env['IP'].encode('ascii') if en.get('') else b'').decode('ascii')
+user = base64.b64decode(env['USER'].encode('ascii') if en.get('') else b'').decode('ascii')
+passwd = base64.b64decode(env['PASSWD'].encode('ascii') if en.get('') else b'').decode('ascii')
 
 
 def main():
