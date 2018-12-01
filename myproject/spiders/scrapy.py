@@ -7,7 +7,7 @@ class QuotesSpider(scrapy.Spider):
     name = "quotes"
     env = os.environ
     
-    def getEnv(var):
+    def getEnv(self, var):
       binVar = env[var].encode('ascii') if env.get(var) else b''
       return base64.b64decode(binVar).decode('ascii')
       
