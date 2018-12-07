@@ -19,9 +19,8 @@ pyopenssl==18.0.0
 queuelib==1.5.0
 scrapy==1.5.1
 scrapyd==1.2.0
-scrapyd-client
+scrapyd-client==1.1.0
 service-identity==17.0.0
-setuptools
 six==1.11.0
 twisted==18.7.0
 w3lib==1.19.0
